@@ -36,6 +36,14 @@ h5{
     padding-top: 50px;
 }
 
+.background-psplus{
+    background-color: #BEBCBB;
+}
+
+.background-psnow{
+    background-color: #161c3b;
+}
+
 .h2-spacing{
     padding-bottom: 30px;
     font-size: 2.5rem;
@@ -53,7 +61,24 @@ h5{
     color:#0072ce;
 }
 
-.section-title{
+.section-padding{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.section-margin{
+    margin-top: 50px;
+    margin-bottom: 50px;    
+}
+
+.btn-psplus{
+    background-color: #D9DADC;
+    color: #2d64e6;
+    font-weight: bold;
+}
+
+
+.width-plus{
+    width: 200px;
+}
+
