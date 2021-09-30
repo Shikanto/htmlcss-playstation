@@ -1,0 +1,59 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+h3{
+    font-size: 2.3rem;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
+h5{
+    font-size: 0.9rem;
+}
+
+.background-hero{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.background-returnal{
+    background-image: url(../img/jumbo-bg.png);
+    padding-top: 250px;
+}
+
+.background-takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    padding-top: 50px;
+}
+
+.h2-spacing{
+    padding-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.img-fluid.py-2{
+    border-radius: 1.5rem;
+}
+
+.subtitle{
+    color: #727272;
+}
+
+.text-light_blue{
+    color:#0072ce;
+}
+
+.section-title{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
