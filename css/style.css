@@ -1,8 +1,3 @@
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
 h3{
     font-size: 2.3rem;
@@ -14,6 +9,11 @@ h4{
 
 h5{
     font-size: 0.9rem;
+}
+
+.h2-spacing{
+    padding-bottom: 30px;
+    font-size: 2.5rem;
 }
 
 .background-hero{
@@ -44,9 +44,8 @@ h5{
     background-color: #161c3b;
 }
 
-.h2-spacing{
-    padding-bottom: 30px;
-    font-size: 2.5rem;
+.background-footer{
+    background-color: #00439c;
 }
 
 .img-fluid.py-2{
@@ -59,6 +58,7 @@ h5{
 
 .text-light_blue{
     color:#0072ce;
+    font-weight: bold;
 }
 
 .section-padding{
@@ -77,8 +77,44 @@ h5{
     font-weight: bold;
 }
 
-
-.width-plus{
-    width: 200px;
+.btn-accedi{
+    background-color: #363636;
+    color: white;
 }
 
+.text-footer{
+    font-size: 0.9rem;
+}
+
+.globe-language{
+    width: 30px;
+    padding-right: 10px;
+}
+
+.sie-img{
+    width: 150px;
+    padding-right: 20px;
+}
+
+.list-footer{
+    list-style: none;
+}
+
+.list-footer li{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.list-footer li a{
+    color: white;
+    text-decoration: none;
+}
+
+.chevron-nav{
+    width: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link, .nav-link{
+    color: #000000;
+    font-weight: bold;
+}
