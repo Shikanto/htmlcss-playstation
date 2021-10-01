@@ -16,6 +16,8 @@ h5{
     font-size: 2.5rem;
 }
 
+/* BACKGROUND VARI */
+
 .background-hero{
     background-position: center;
     background-repeat: no-repeat;
@@ -48,8 +50,16 @@ h5{
     background-color: #00439c;
 }
 
-.img-fluid.py-2{
-    border-radius: 1.5rem;
+
+/* TESTI */
+
+.text-footer{
+    font-size: 0.9rem;
+}
+
+.navbar-light .navbar-nav .nav-link, .nav-link{
+    color: #000000;
+    font-weight: bold;
 }
 
 .subtitle{
@@ -59,41 +69,6 @@ h5{
 .text-light_blue{
     color:#0072ce;
     font-weight: bold;
-}
-
-.section-padding{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.section-margin{
-    margin-top: 50px;
-    margin-bottom: 50px;    
-}
-
-.btn-psplus{
-    background-color: #D9DADC;
-    color: #2d64e6;
-    font-weight: bold;
-}
-
-.btn-accedi{
-    background-color: #363636;
-    color: white;
-}
-
-.text-footer{
-    font-size: 0.9rem;
-}
-
-.globe-language{
-    width: 30px;
-    padding-right: 10px;
-}
-
-.sie-img{
-    width: 150px;
-    padding-right: 20px;
 }
 
 .list-footer{
@@ -110,11 +85,48 @@ h5{
     text-decoration: none;
 }
 
-.chevron-nav{
-    width: 10px;
+/* SPACING */
+
+.section-padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.navbar-light .navbar-nav .nav-link, .nav-link{
-    color: #000000;
+.section-margin{
+    margin-top: 50px;
+    margin-bottom: 50px;    
+}
+
+/* BOTTONI */
+
+.btn-psplus{
+    background-color: #D9DADC;
+    color: #2d64e6;
     font-weight: bold;
+}
+
+.btn-accedi{
+    background-color: #363636;
+    color: white;
+}
+
+/* IMMAGINI */
+
+.img-fluid.py-2{
+    border-radius: 1.5rem;
+}
+
+.globe-language{
+    width: 30px;
+    padding-right: 10px;
+}
+
+.sie-img{
+    width: 150px;
+    padding-right: 20px;
+}
+
+
+.chevron-nav{
+    width: 10px;
 }
