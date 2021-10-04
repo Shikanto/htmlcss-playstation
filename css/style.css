@@ -1,3 +1,6 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 h3{
     font-size: 2.3rem;
@@ -15,6 +18,8 @@ h5{
     padding-bottom: 30px;
     font-size: 2.5rem;
 }
+
+
 
 /* BACKGROUND VARI */
 
@@ -48,6 +53,10 @@ h5{
 
 .background-footer{
     background-color: #00439c;
+}
+
+.col{
+    position: relative;
 }
 
 
@@ -112,13 +121,17 @@ h5{
 
 /* IMMAGINI */
 
-.img-fluid.py-2{
+.img-fluid.py-2, .card-img{
     border-radius: 1.5rem;
+}
+
+.img-fluid.py-2{
+    transition: 0.3s;
 }
 
 .globe-language{
     width: 30px;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 .sie-img{
@@ -129,4 +142,34 @@ h5{
 
 .chevron-nav{
     width: 10px;
+}
+
+.card-img::before{
+    content: "";
+    height: calc(100% - 4px);
+    width:calc(100% - 10px);
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    border: 2px solid blue;
+    border-radius: 1.5rem;
+    transition: 0.3s;
+} 
+
+/* ANIMAZIONI */
+
+.navbar-light .navbar-nav .nav-link:focus, .nav-link:focus{
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .nav-link:hover{
+    color: rgba(0,114,206);
+}
+
+.card-img:hover:before{
+    transform: translateY(-1.2rem);
+}
+
+.img-fluid.py-2:hover{
+    transform: translateY(-1.2rem);
 }
